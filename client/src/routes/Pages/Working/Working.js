@@ -78,62 +78,6 @@ const Working = () => (
         </div>
       </section>
 
-      <section class="step">
-        <div class="info">
-          <h2>Next steps</h2>
-          <p>
-            If you enjoyed using Blaze, you can add Blaze to your home screen!
-            Doing this not only makes Blaze easy to access but it also shows up
-            in the share tray when you are sharing a file from other apps using{' '}
-            <Share2 size={20} /> button.
-          </p>
-          <p>
-            Since Blaze is an open-source project, do consier checking out it's
-            source code, contributing bug fixes or suggesting new features that
-            can improe Blaze. If you find this project useful, consider giving
-            <a
-              href="https://github.com/blenderskool/blaze"
-              target="_blank"
-              rel="noreferrer"
-            >
-              {' '}
-              Blaze a star
-            </a>{' '}
-            or{' '}
-            <a
-              href="https://github.com/sponsors/blenderskool/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              sponsoring me
-            </a>{' '}
-            on GitHub 💚
-          </p>
-          <p>
-            Blaze has been tested on:
-            <ul class="browsers">
-              <li>
-                <img src={chrome} />
-                <span>Google Chrome</span>
-              </li>
-              <li>
-                <img src={edge} />
-                <span>Microsoft Edge</span>
-              </li>
-              <li>
-                <img src={firefox} />
-                <span>Firefox Browser</span>
-              </li>
-              <li>
-                <img src={safari} />
-                <span>Safari</span>
-              </li>
-            </ul>
-          </p>
-        </div>
-        <img src={install} alt="Adding Blaze to home screen" loading="lazy" />
-      </section>
-
       <section class="callout">
         <h2>Ready to share files?</h2>
         <a class="btn" href="/app">
