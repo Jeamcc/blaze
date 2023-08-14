@@ -18,10 +18,6 @@ const Navigation = memo(function Navigation() {
         <Settings />
         <span class="label">Settings</span>
       </Link>
-      <Link href="/app/support" class="nav-item" activeClassName="active">
-        <Gift />
-        <span class="label">Support</span>
-      </Link>
     </>
   )
 });
