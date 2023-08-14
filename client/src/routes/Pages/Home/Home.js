@@ -78,21 +78,6 @@ const Home = () => (
       </div>
     </section>
 
-    <section class="about" id="about">
-
-      <blockquote>
-        <span>"</span>I built Blaze because I wanted a fast, radically different way to transfer files between my laptop and mobile<span>"</span>
-
-        <footer>
-          <a href="https://akashhamirwasia.com" target="_blank" rel="noopener noreferrer">
-            <img src="https://github.com/blenderskool.png?size=100" alt="Akash Hamirwasia" />
-          </a>
-          <cite class="author">Akash Hamirwasia</cite>
-          <cite class="position">Creator of Blaze</cite>
-        </footer>
-      </blockquote>
-
-    </section>
 
     <section class="hero final-cta">
       <div>
