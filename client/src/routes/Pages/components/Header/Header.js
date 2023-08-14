@@ -41,23 +41,6 @@ function Header() {
           GitHub&nbsp;
           <Github size={16} style="margin-bottom: 4px" />
         </a>
-        <a href="https://github.com/sponsors/blenderskool" target="_blank">
-          Sponsor me!
-        </a>
-        <a
-          class="ph-desktop"
-          href="https://www.producthunt.com/posts/blaze-2?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-blaze-2"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img
-            src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=174403&theme=dark&period=daily"
-            alt="Blaze - Fast peer to peer file sharing web app ⚡ | Product Hunt Embed"
-            style="width: 250px; height: 54px;"
-            width="250px"
-            height="54px"
-          />
-        </a>
       </nav>
     </header>
   );
