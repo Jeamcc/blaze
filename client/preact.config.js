@@ -26,7 +26,7 @@ module.exports = function(config, env, helpers) {
           : `http://${ip.address()}:3030`
       ),
       WS_SIZE_LIMIT: JSON.stringify(process.env.WS_SIZE_LIMIT || 1e8),
-      TORRENT_SIZE_LIMIT: JSON.stringify(process.env.TORRENT_SIZE_LIMIT || 7e8),
+      TORRENT_SIZE_LIMIT: JSON.stringify(process.env.TORRENT_SIZE_LIMIT || 1e20),
     })
   );
 
