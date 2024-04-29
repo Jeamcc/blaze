@@ -65,8 +65,8 @@ export default function App() {
 
     scriptjs(
       [
-        'https://unpkg.com/canvas-elements/build/cdn/canvas-elements.min.js',
-        'https://cdn.jsdelivr.net/npm/webtorrent@1.9.7/webtorrent.min.js',
+        'https://cdn.jeam.cc/blaze.jeam.cc/canvas-elements.min.js',
+        'https://cdn.jeam.cc/blaze.jeam.cc/webtorrent.min.js',
       ],
       () => {
         updateLocalStorageSchema();
